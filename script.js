@@ -8,9 +8,9 @@ class Animal {
     return this._species;
   }
 
-  // set species(value) {
-  //   this._species = value;
-  // }
+  set species(value) {
+    this._species = value;
+  }
 
   makeSound() {
     console.log(`The ${this.species} makes a sound.`);
